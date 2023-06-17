@@ -2,7 +2,9 @@
 
 # Team Members and Roles
 Mielat Habte - TEAM LEAD, Scrum Master and Development Team
-Seema Vayaliparambil Kumaran - Product Owner adn Development Team
+
+Seema Vayaliparambil Kumaran - Product Owner and Development Team
+
 Jhaedyn Gibbs- Development Team 
 
 # Team Jira Backlog Link
