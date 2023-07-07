@@ -30,3 +30,6 @@ https://mhabte.atlassian.net/jira/software/projects/ESE/boards/34
 
   The team did not see any impediments, but did discuss how we would handle them if we came across any. It was agreed on that we will inform team right away and get on a MS Team call to straighten out any blockers as a team.
 
+
+# Burndown Chart
+
