@@ -11,3 +11,10 @@ Jhaedyn Gibbs - Development Team
 https://mhabte.atlassian.net/jira/software/projects/ESE/boards/34/backlog
 
 Backlog has been ordered based on the order of tasks - starts with sign up and login page and its implementation details including success/failure scenarios. 
+
+
+
+# How to Run Application
+1. Clone Repo
+2. npm install
+3. npm start
