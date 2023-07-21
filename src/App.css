@@ -1,4 +1,4 @@
-.App, .quest, .home{
+.App, .quest, .home, .profile{
   text-align: center;
   display: flex;
   min-height: 100vh;

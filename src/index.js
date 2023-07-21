@@ -28,6 +28,7 @@ import {Login} from './Login/Login';
 import {Register} from './Login/Register';
 import {Quest} from './Questionnaire/Quest'; 
 import {Home} from './Home/Home'; 
+import {Profile} from './Profile/Profile';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -38,6 +39,7 @@ root.render(
         <Route path="login" element={<Login />} />
         <Route path="quest" element={<Quest />} />
         <Route path="home" element={<Home />} />
+        <Route path="profile" element={<Profile />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
