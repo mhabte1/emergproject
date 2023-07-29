@@ -28,7 +28,7 @@ import {Login} from './Login/Login';
 import {Register} from './Login/Register';
 import {Quest} from './Questionnaire/Quest'; 
 import {Home} from './Home/Home'; 
-import {Profile} from './Profile/Profile.js';
+import {Profile} from './Profile/Profile';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

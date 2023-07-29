@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
+import { useNavigate } from "react-router-dom";
+
 export const Login = (props) => {
+    const navigate = useNavigate();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
@@ -7,6 +10,7 @@ export const Login = (props) => {
         e.preventDefault();
         console.log(email);
         console.log(password);
+        navigate("/home")
     }
 
      return(
