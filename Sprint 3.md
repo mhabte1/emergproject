@@ -1,8 +1,8 @@
 # Sprint 3
 
-# Total Story Points Completed for Sprint 2:
+# Forecast for Sprint 2:
 
-20
+20 points is the estimated capacity. We say 20 due to the fact that there are only 8 days to sprint 3, and each person will have 1 story worth 6-8 points.
 
 
 # Kanban Board
