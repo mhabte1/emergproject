@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom'
 import './Profile.css'; // Import the CSS file
 
 export const Profile = () => {
@@ -8,6 +9,8 @@ export const Profile = () => {
     bio: '',
     photos: [],
   });
+
+  const navigate = useNavigate();
 
   // Function to handle input changes in the form
   const handleInputChange = (e) => {
@@ -38,6 +41,10 @@ export const Profile = () => {
     // Redirect the user to the Instagram authorization URL
     window.location.href = instagramAuthUrl;
   };
+
+  const handleHomeClick = () => {
+    navigate('/home');
+  }
 
   return (
     <div className='Profile auth-form-container'>
@@ -81,6 +88,9 @@ export const Profile = () => {
         {profile.photos.map((photo, index) => (
           <img key={index} src={URL.createObjectURL(photo)} alt={`Uploaded ${index + 1}`} />
         ))}
+      </div>
+      <div className='profile-icon'>
+        <button onClick={handleHomeClick}>Home</button>
       </div>
     </div>
   );
