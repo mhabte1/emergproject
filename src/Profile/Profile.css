@@ -1,0 +1,176 @@
+/* src/components/Profile.css */
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="file"] {
+    display: none; /* Hide the default file input appearance */
+  }
+  
+  .photo-upload-label {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .uploaded-photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+  
+  .uploaded-photos img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Style for mobile devices */
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 20px;
+    }
+    .App, .quest, .home, .profile{
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: linear-gradient(79deg, #7439DB, #C66FBC 48%, #F7944D);
+}
+
+.auth-form-container,  .login-form, .register-form, .quest-form, .home{
+  display: flex;
+  flex-direction: column;
+
+}
+
+@media screen and (min-width: 600px){
+  .auth-form-container{
+    padding: 5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0.5rem
+  }
+}
+
+
+label{
+  text-align: left;
+  padding: 0.25rem 0;
+
+}
+
+input{
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+button{
+  border: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #7439db
+}
+
+.link-btn{
+  background: none;
+  color: white;
+  text-decoration: underline;
+}
+
+  }
+  .App, .quest, .home, .Profile, .displayProfile{
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(79deg, #7439DB, #C66FBC 48%, #F7944D);
+  }
+  
+  .auth-form-container,  .login-form, .register-form, .quest-form, .home{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  @media screen and (min-width: 600px){
+    .auth-form-container{
+      padding: 5rem;
+      border: 1px solid white;
+      border-radius: 10px;
+      margin: 0.5rem
+    }
+  }
+  
+  
+  label{
+    text-align: left;
+    padding: 0.25rem 0;
+  
+  }
+  
+  input{
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  
+
+  
